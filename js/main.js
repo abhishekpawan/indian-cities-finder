@@ -4,7 +4,7 @@ const matchlist = document.getElementById("match-list");
 // search states.json and filter
 
 const searchStates = async (searchText) => {
-  const res = await fetch("https://abhishekpawan.me/indian-cities-finder/data/in.json");
+  const res = await fetch("https://gist.githubusercontent.com/abhishekpawan/cf56a7bf99f249f7bbc2e22eae6a8364/raw/c09f3ccc7da1e637411a176e5b0147114b80bf98/india.json");
   const states = await res.json();
 
   // Get matches to current text input
